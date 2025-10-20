@@ -113,4 +113,39 @@ iframe {
    border: none;
 }
 
+.h2{
+padding-top: 40px;
+}
+
+.fenetres {
+  display: flex;
+  justify-content: center; /* centriranje kartica */
+  gap: 30px;               /* razmak između njih */
+  flex-wrap: wrap;         /* da se lepo slože na manjim ekranima */
+  margin: 20px;
+}
+
+.f1 {
+  background-color: #006aff; /* plava pozadina */
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.fenetres img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.fenetres h3 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.f2 p {
+  line-height: 1.4;
+}
+
 
