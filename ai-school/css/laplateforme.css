@@ -83,7 +83,34 @@ padding-left: 25px;
 padding-bottom: 13px;
 }
 
-.p1{
-
+.p1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 25px;
+  font-family: "Comic Sans MS";
 }
+
+.p2 {
+ display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  padding-left: 25px;
+  font-family: "Comic Sans MS";
+}
+
+iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+   border: none;
+}
+
 
