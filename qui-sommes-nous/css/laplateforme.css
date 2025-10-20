@@ -1,0 +1,195 @@
+body {
+   background-color: #f6f0ff;
+}
+
+#header-container{
+  display: flex;
+  justify-content: center;    /* centriranje sadržaja horizontalno */
+  align-items: center;        /* vertikalno centriranje */
+  background-color: pink;
+  color: white;
+  font-family: "Comic Sans MS";
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  gap: 20px;                  /* razmak između logotipa i naslova */
+}
+
+ #titre {
+  text-align: center;
+}
+
+ .logo-img{
+ width: 70px;
+  height: auto;
+  display: block;
+}
+
+ .main-titre{
+    display: flex;          /* div dans flex */
+    justify-content: center; /* hor centering */
+    align-items: center;    /* vertical centering */
+    margin-top: 5%;
+    }
+
+.m-t{
+  font-size: 36px;
+    font-weight: bold;       /* bolding */
+    color: #8A2BE2;
+    text-align: center;
+}
+
+.main-paragraph {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 20px 0;
+     margin-top: -40px;
+}
+
+
+.p1; .p2{
+    flex: 1;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    color: #333;
+    margin: 0 5px;
+    word-wrap: break-word;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-img{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+        gap: 40px;          /* razmak između logotipa (po želji) */
+        padding: 20px 0;    /* malo prostora iznad i ispod */
+         opacity: 0.9;
+}
+
+footer {
+  background-color: pink;
+  text-align: center;
+  padding: 40px 20px;
+  border: none;
+  border-top: none;           /* sigurnosno: uklanja bilo kakvu liniju gore */
+  border-radius: 0 0 10px 10px;
+    flex-wrap: wrap;/* opciono – zaobljeni donji uglovi */
+}
+
+#footer-container {
+  display: flex;
+  align-items: center;      /* centriranje po visini */
+  justify-content: center;
+  color:white;/* centriranje po širini */
+  gap: 80px;                /* razmak između elemenata */
+  text-align: center;
+  padding: 5px;
+}
+
+.footer-container{
+margin-top: -60px;
+}
+
+#footer-container img {
+  width: 150px;               /* veća slika, ali proporcionalna */
+  height: auto;
+  margin-top: 0;              /* uklonili negativni margin da bude ravno */
+}
+
+#footer-container p {
+  font-size: 20px;
+  line-height: 1.4;
+  max-width: 250px; /* da tekst ne ide preširoko */
+}
+
+#button-container {
+  bottom: 20px;             /* razmak od dna */
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button1 {
+ background-color: white   /* ljubičasta pozadina */
+                    /* bela slova */
+    padding: 10px 24px;          /* razmak unutar dugmeta */
+    text-align: center;
+    border: none;                /* bez ivice */
+    border-radius: 8px;          /* blago zaobljeni uglovi */
+    min-width: 200px;            /* širina da dugme izgleda ujednačeno */
+    text-decoration: none;       /* bez podvlačenja */
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;             /* pokazivač kao ruka */
+    margin: 10px;                /* malo prostora oko */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+ }
+
+ .lien {
+    color: #6a1b9a; ;
+    text-decoration: none;
+ }
+
+ .button2 {
+   background-color: #6a1b9a;
+   padding: 10px 24px;          /* razmak unutar dugmeta */
+   text-align: center;
+   border: none;                /* bez ivice */
+   border-radius: 8px;          /* blago zaobljeni uglovi */
+   min-width: 200px;            /* širina da dugme izgleda ujednačeno */
+   text-decoration: none;       /* bez podvlačenja */
+   font-size: 20px;
+   font-weight: bold;
+   cursor: pointer;             /* pokazivač kao ruka */
+   display: inline-block;       /* da ne ide od ivice do ivice */
+   margin: 10px;                /* malo prostora oko */
+   transition: background-color 0.3s ease, transform 0.2s ease;
+ }
+
+ .button2:hover {
+   background-color: #8e24aa;   /* svetlija ljubičasta */
+ }
+
+ .lien2{
+  color: white;
+     text-decoration: none;
+ }
+
+#info {
+  float: right;           /* pomera ceo blok na desnu stranu kontejnera */
+  text-align: left;       /* ali tekst unutar ostaje poravnat levo */
+  background-color: #f8f8f8; /* (opciono) da vidiš gde je blok */
+  padding: 15px;          /* malo prostora oko teksta */
+  border-radius: 8px;     /* blago zaobljeni uglovi */
+  max-width: 300px;       /* širina bloka da ne ide do ivice */
+}
+
+#info p {
+  margin: 0 0 10px 0;     /* razmak između teksta i dugmeta */
+}
+
+#info a {
+  display: inline-block;  /* da se ponaša kao dugme */
+  background-color: #6a1b9a;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+#info a:hover {
+  background-color: #8e24aa;
+}
+
+
+
+
+
