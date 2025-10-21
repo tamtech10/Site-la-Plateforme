@@ -74,3 +74,62 @@ main {
  width: 100%;
  padding-top:20px;
 }
+
+.main2-text {
+ color:white;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 45px;
+    font-family: "Comic Sans MS";
+      line-height: 1.6;
+        flex: 1 1 60%;
+}
+
+.ligne1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ligne1-img{
+ width:266px;
+ height:150px;
+}
+
+.l1-img{
+width:100%
+}
+
+.ligne1-p{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#button-container {
+  bottom: 20px;             /* razmak od dna */
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button {
+    color:white;
+    background-color:red;
+    padding: 10px 24px;          /* razmak unutar dugmeta */
+    text-align: center;
+    border: none;                /* bez ivice */
+    border-radius: 8px;          /* blago zaobljeni uglovi */
+    min-width: 200px;            /* širina da dugme izgleda ujednačeno */
+    text-decoration: none;       /* bez podvlačenja */
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;             /* pokazivač kao ruka */
+    margin: 20px;                /* malo prostora oko */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+ }
