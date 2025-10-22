@@ -113,7 +113,6 @@ h2{
 .main2{
     background-color: pink;
     margin: 25px 30px 0 30px; /* redosled: top right bottom left */
-    height: 70vh;
     display: flex;
     justify-content: flex-start;
     line-height: 1.8;
@@ -125,12 +124,76 @@ h2{
 }
 
 .main2-content ul {
-  list-style-type: "• ";
-  padding-left: 25px;
-  margin-bottom: 20px;
+    list-style-type: "• ";
+    padding-left: 25px;
+    margin-bottom: 20px;
 }
 
 .main2-content li {
-  margin-bottom: 8px;
-  line-height: 1.7;
+    margin-bottom: 8px;
+    line-height: 1.7;
+}
+
+
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    border: none;
+}
+
+h3 {
+    font-family: "Roboto Slab", "Georgia", serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.p1{
+    font-family: "Roboto", "Helvetica Neue", sans-serif; /* čitak profesionalan tekst */
+    font-size: 1rem;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 0 40px;
+}
+
+.fenetres {
+    display: flex;
+    justify-content: center; /* centriranje kartica */
+    gap: 30px;               /* razmak između njih */
+    flex-wrap: wrap;         /* da se lepo slože na manjim ekranima */
+    margin: 20px;
+    padding-top: 40px;
+}
+
+.f1 {
+    background-color: #006aff; /* plava pozadina */
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.fenetres img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.fenetres h3 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.f2 p {
+    line-height: 1.4;
 }
