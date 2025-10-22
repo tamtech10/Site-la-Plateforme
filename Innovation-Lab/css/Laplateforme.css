@@ -1,0 +1,44 @@
+
+body {
+    background-color: #f6f0ff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    }
+
+#header-container{
+    display: flex;
+    justify-content: center;    /* centriranje sadržaja horizontalno */
+    align-items: center;        /* vertikalno centriranje */
+    background-color: pink;
+    color: white;
+    font-family: "Comic Sans MS";
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    gap: 20px;                  /* razmak između logotipa i naslova */
+    }
+
+ #titre {
+    text-align: center;
+    }
+
+ .logo-img{
+    width: 70px;
+    height: auto;
+    display: block;
+    }
+
+main {
+    background-color: #e0d8ff;
+    min-height: 100vh;
+    width: 100%;
+    padding-top:20px;
+    }
+
+.main1 {
+    background-color: #a3c4f3;;
+    margin: 25px 30px 0 30px;
+}
+
