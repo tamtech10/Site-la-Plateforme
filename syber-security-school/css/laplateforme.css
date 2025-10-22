@@ -105,7 +105,7 @@ nav a {
     color: #000;
 }
 
-h2{
+#titre2 {
     padding-left:75px;
     padding-top:40px;
 }
@@ -197,3 +197,27 @@ h3 {
 .f2 p {
     line-height: 1.4;
 }
+
+.main3 {
+    background-color: pink;
+    margin: 25px 30px 0 30px;
+    display: flex;
+    justify-content: space-between; /* prvi levo, drugi desno */
+    align-items: center;             /* vertikalno centriranje */
+    line-height: 1.8;
+    padding: 40px;                   /* malo unutrašnjeg prostora da diše */
+}
+
+.main3-first,
+.main3-second {
+    width: 45%;
+}
+
+.main3-first div,
+.main3-second div {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+
