@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/laplateforme.css/">
+</head>
+
+<body>
+<header>
+    <div id="header-container">
+        <div>
+            <img class="logo-img" src="logo.jpg" alt="logo">
+        </div>
+        <div id="titre">
+            <h1>La PLATEFORME</h1>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="main-div">
+
+        <div class="fenetre1">
+            <h3>La grande école<br>
+                du numérique pour tous</h3>
+            <p>Besoin d’un renseignement sur nos<br>
+                cursus, notre accompagnement<br>
+                entreprises, nos projets et actions ?<br>
+                Contactez-nous.</p>
+            <div id="image-container">
+                <img id="HP-image" src="HP_visual_light.jpg" alt="groupe-laplateforme">
+            </div>
+        </div>
+
+        <div class="fenetre2">
+
+            <h1>La Plateforme/ Contact</h1>
+
+            <form action="https://webhook.site/8f25ae91-e416-451a-9d01-51845e922e48" method="post">
+
+                <div>
+                    <select name="civilité" id="civilité-form" required>
+                        <option value="">Civilité*</option>
+                        <option value="mr">Mr.</option>
+                        <option value="mme">Mme.</option>
+                        <option value="mx">Mx.</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="text" name="prenom" id="prenom" placeholder="Prenom*" name="Prenom" required>
+                </div>
+
+                <div>
+                    <input type="text" name="nom" id="nom" placeholder="Nom*" name="Nom" required>
+                </div>
+
+                <div>
+                    <input type="email" name="email" id="email-form" placeholder="E-mail*" required>
+                </div>
+
+                <div>
+                    <input type="tel" name="phone" placeholder="Telephone Mobile*" required>
+                </div>
+
+                <div>
+                    <select name="motif" id="motif-form" required>
+                        <option value="">Sélectionner un motif de contact*</option>
+                        <option value="Aide">Aide à l'orientation et informations sur les programmes</option>
+                        <option value="Relations entreprises">Relations entreprises</option>
+                        <option value="P/P/C">Presse / Partenariat / Communication</option>
+                        <option value="Candidatures">Suivi de candidatures</option>
+                        <option value="RH">Recrutement RH</option>
+                        <option value="Taxe">Taxe d'apprentissage</option>
+                        <option value="Autre">Autre</option>
+                    </select>
+                </div>
+
+                <div>
+                    <textarea id="textarea" name="text" placeholder="message*"></textarea>
+                </div>
+
+                <div class="newsletter-checkbox">
+                    <input id="recevoir-newsletter" type="checkbox" name="newsletter" value="newsletter">
+                    <label for="recevoir-newsletter">J'accepte de recevoir des informations de la part de la Plateforme</label>
+                </div>
+
+                <div>
+                    <button type="submit">Envoyer</button>
+                </div>
+
+            </form>
+        </div>
+
+
+
+
+
+
+    </div>
+</main>
+
+</body>
+</html>
