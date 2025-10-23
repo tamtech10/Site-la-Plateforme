@@ -143,3 +143,154 @@ button[type="submit"]:hover {
     font-size: 14px;
 }
 
+.div2{
+    display:flex;
+    flex-direction:column;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 18px;
+    padding: 60px;
+    margin-top:-40px;
+}
+
+.footer {
+     flex-direction:row;
+     background-color: #2f2f2f; /* prijatna tamno siva */
+     color: white;
+     padding: 50px 30px;
+     font-family: Arial, sans-serif;
+ }
+
+ .footer-container {
+   display: flex;
+   justify-content: space-around;
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+
+ .footer-section {
+   flex: 1 1 300px;
+   margin: 10px;
+ }
+
+ .footer-title {
+   font-size: 26px;
+   font-weight: bold;
+   margin-bottom: 10px;
+ }
+
+ .footer-subtitle {
+   font-size: 14px;
+   color: #ccc;
+   margin-bottom: 20px;
+ }
+
+ .social-icons a {
+     display: flex;
+   justify-content: center; /* centrirane u okviru svog dela */
+   align-items: center;
+   gap: 10px; /* razmak između ikonica */
+   margin-bottom: 20px;
+ }
+
+ .social-icons img {
+   width: 30px;   /* manja veličina ikonica */
+   height: 30px;
+   object-fit: contain; /* da se ne deformišu */
+   transition: transform 0.2s ease;
+ }
+
+ .social-icons img:hover {
+   transform: scale(1.1); /* blago uvećanje na hover */
+ }
+
+ .footer-buttons {
+   margin-top: 20px;
+   display: flex;
+   align-items:center;
+   flex-direction: column;
+   gap: 10px;
+ }
+
+ .join-btn {
+   background-color: white;
+   color: #2f2f2f;
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 4px;
+   font-weight: bold;
+ }
+
+ .download-btn {
+   background-color: #e6392f;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 4px;
+   font-weight: bold;
+ }
+
+ .footer-section h3 {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 18px;
+   color: white;
+ }
+
+ .footer-section ul {
+   list-style: none;
+   padding: 0;
+ }
+
+ .footer-section li {
+   margin: 6px 0;
+ }
+
+ .footer-section a {
+   text-decoration: none;
+   color: #ccc;
+ }
+
+ .footer-section a:hover {
+   color: white;
+ }
+
+ .contact-btn {
+   background-color: transparent;
+   border: 2px solid white;
+   color: white;
+   padding: 8px 18px;
+   font-size: 16px;
+   border-radius: 4px;
+   cursor: pointer;
+   margin-top: 15px;
+ }
+
+ .contact-btn:hover {
+   background-color: white;
+   color: #2f2f2f;
+ }
+
+ .footer-section-info {
+   flex: 1 1 200px;
+ }
+
+
+ .footer-section p {
+   margin: 5px 0;
+ }
+
+ .info{
+   background-color: red;
+   border-radius: 10px;
+   padding: 15px 20px;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 250px;
+   margin-top: 15px;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+ }
+
