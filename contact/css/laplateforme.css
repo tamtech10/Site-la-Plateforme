@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
     padding: 10px 20px;
     border-radius: 10px;
-    gap: 20px;                  /* razmak između logotipa i naslova */
+    gap: 20px;
     }
 
  #titre {
@@ -30,10 +30,10 @@ body {
     }
 
 main {
-        background-color: #e0d8ff;
-        min-height: 100vh;
-        width: 100%;
-        }
+    background-color: #e0d8ff;
+    min-height: 100vh;
+    width: 100%;
+}
 
 body {
     margin: 0;
@@ -47,7 +47,11 @@ body {
 /* main-div */
 .main-div {
     display: flex;
-    min-height: 100vh;
+    min-height: 100px; /* visina prozora */
+    border-radius: 10px; /* zaobljeni uglovi */
+    overflow: hidden; /* da deca ne izlaze iz ivica */
+    margin: 20px auto; /* razmak od drugih elemenata na stranici */
+    max-width: 1200px; /* opcionalno da ne bude preširoko */
 }
 
 /* left */
